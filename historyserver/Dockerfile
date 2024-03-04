@@ -1,6 +1,6 @@
-FROM bde2020/hadoop-base:2.0.0-hadoop3.2.1-java8
+FROM ruizhizhong058/hadoop-base:3.3.6-java8
 
-MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
+LABEL org.opencontainers.image.authors="ruizhi.zhong@zoom.us"
 
 HEALTHCHECK CMD curl -f http://localhost:8188/ || exit 1
 

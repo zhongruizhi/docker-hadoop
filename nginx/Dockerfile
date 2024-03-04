@@ -1,6 +1,6 @@
 FROM nginx
 
-MAINTAINER "Ivan Ermilov <mailto:ivan.s.ermilov@gmail.com>"
+LABEL org.opencontainers.image.authors="ruizhi.zhong@zoom.us"
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY materialize.min.css /data/bde-css/materialize.min.css
