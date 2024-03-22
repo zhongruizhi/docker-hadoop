@@ -1,4 +1,4 @@
-FROM ruizhizhong058/hadoop-base:3.3.6-java8
+FROM ruizhizhong058/hadoop-base:3.3.6-java8-amd64
 
 LABEL org.opencontainers.image.authors="ruizhi.zhong@zoom.us"
 

@@ -2,7 +2,7 @@ version: '3'
 
 services:
   namenode:
-    image: ruizhizhong058/hadoop-namenode:3.3.6-java8
+    image: ruizhizhong058/hadoop-namenode:3.3.6-java8-amd64
     networks:
       - hbase
     volumes:
@@ -24,7 +24,7 @@ services:
         traefik.port: 50070
 
   datanode:
-    image: ruizhizhong058/hadoop-datanode:3.3.6-java8
+    image: ruizhizhong058/hadoop-datanode:3.3.6-java8-amd64
     networks:
       - hbase
     volumes:
@@ -42,7 +42,7 @@ services:
         traefik.port: 50075
 
   resourcemanager:
-    image: ruizhizhong058/hadoop-resourcemanager:3.3.6-java8
+    image: ruizhizhong058/hadoop-resourcemanager:3.3.6-java8-amd64
     networks:
       - hbase
     environment:
@@ -64,7 +64,7 @@ services:
       disable: true
 
   nodemanager:
-    image: ruizhizhong058/hadoop-nodemanager:3.3.6-java8
+    image: ruizhizhong058/hadoop-nodemanager:3.3.6-java8-amd64
     networks:
       - hbase
     environment:
@@ -80,7 +80,7 @@ services:
         traefik.port: 8042
 
   historyserver:
-    image: ruizhizhong058/hadoop-historyserver:3.3.6-java8
+    image: ruizhizhong058/hadoop-historyserver:3.3.6-java8-amd64
     networks:
       - hbase
     volumes:
