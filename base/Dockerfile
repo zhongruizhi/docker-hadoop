@@ -1,6 +1,6 @@
 FROM ubuntu:jammy
 
-LABEL org.opencontainers.image.authors="ruizhi.zhong@zoom.us"
+LABEL org.opencontainers.image.authors="ruizhi.zhong@outlook.com"
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
       openjdk-8-jdk \

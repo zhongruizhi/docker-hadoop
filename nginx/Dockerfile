@@ -1,6 +1,6 @@
 FROM nginx
 
-LABEL org.opencontainers.image.authors="ruizhi.zhong@zoom.us"
+LABEL org.opencontainers.image.authors="ruizhi.zhong@outlook.com"
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY materialize.min.css /data/bde-css/materialize.min.css

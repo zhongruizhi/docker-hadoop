@@ -1,6 +1,6 @@
-FROM ruizhizhong058/hadoop-base:3.3.6-java8
+FROM zhongruizhi/hadoop-base:3.3.6-java8-aarch64
 
-LABEL org.opencontainers.image.authors="ruizhi.zhong@zoom.us"
+LABEL org.opencontainers.image.authors="ruizhi.zhong@outlook.com"
 
 HEALTHCHECK CMD curl -f http://localhost:9870/ || exit 1
 
